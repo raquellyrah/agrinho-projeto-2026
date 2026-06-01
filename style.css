@@ -1,0 +1,20 @@
+/* ==========================================================================
+   VARIÁVEIS DE CORES E CONFIGURAÇÕES (Tema: Natureza Sustentável)
+   ========================================================================== */
+:root {
+    /* Modo Claro (Padrão) */
+    --cor-principal: #2d6a4f;       /* Verde floresta fechado para destaque e títulos */
+    --cor-secundaria: #52b788;      /* Verde folha vivo para elementos secundários */
+    --cor-fundo: #f4f9f4;           /* Branco esverdeado suave e natural */
+    --cor-card: #ffffff;            /* Fundo dos blocos e cards */
+    --cor-texto: #1b4332;           /* Verde escuro quase preto para máxima leitura */
+    --cor-texto-mutado: #5fa874;    /* Verde suave para textos de apoio */
+    --cor-botao: #40916c;           /* Verde médio para botões */
+    --cor-botao-hover: #1b4332;     /* Tom mais escuro para o efeito hover */
+    --cor-linha-tempo: #74c69d;     /* Cor do conector da linha do tempo */
+    --transicao-suave: all 0.3s ease;
+}
+
+/* Classe aplicada via JavaScript para o Modo Escuro */
+[data-theme="dark"] {
+    --cor-principal: #5
